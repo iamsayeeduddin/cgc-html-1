@@ -1,4 +1,44 @@
-.firstsession {
+/* .firstsession {
   background-color: blue;
   color: white;
 }
+
+label {
+  color: aqua;
+} */
+
+/* Basic Selectors */
+
+label {
+  font-size: 24px;
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textGreen {
+  color: green;
+}
+
+#dob {
+  color: brown;
+}
+
+label[for*="J"] {
+  color: darkslateblue;
+}
+
+form > div > p {
+  background-color: gold;
+  color: brown;
+}
+
+/* div > p {
+  background-color: gold;
+  color: brown;
+} */
+
+p + span {
+  color: red;
+}
+
+~
