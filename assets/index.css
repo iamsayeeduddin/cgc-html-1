@@ -9,6 +9,10 @@ label {
 
 /* Basic Selectors */
 
+* {
+  margin: 0;
+}
+
 label {
   font-size: 24px;
   color: aqua;
@@ -41,4 +45,20 @@ p + span {
   color: red;
 }
 
-~
+p::before {
+  content: "TEST";
+  color: aqua;
+  background-color: #fff123;
+}
+
+p {
+  box-sizing: border-box;
+  /* height: 25vh; */
+  font-size: 2em;
+  margin: 0;
+  /* padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  padding: 10px 15px;
+}
