@@ -30,3 +30,39 @@
   font-size: 36px;
   color: white;
 }
+
+.box1 {
+  background-color: whitesmoke;
+  border: 5px solid green;
+  overflow: scroll;
+  height: 150px;
+  /* display: none; */
+  opacity: 0;
+}
+
+.box1 .sticky {
+  color: red;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
+
+.box2 {
+  height: 150px;
+  max-width: 800px;
+  border: 2px solid green;
+  margin-top: 10px;
+  position: relative;
+  background-color: yellow;
+}
+
+.box3 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid red;
+  background-color: green;
+  z-index: -999999999999999999999999;
+}
