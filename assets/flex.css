@@ -8,7 +8,8 @@
   width: 90vw;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  align-content: baseline;
 }
 
 .box {
@@ -18,23 +19,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* align-content: center; */
+  /* flex-wrap: wrap; */
 }
 
 .box1 {
   /* order: 3; */
   /* flex-basis: 120px; */
   /* flex-grow: 2; */
-  flex-shrink: 2;
+  /* flex-shrink: 2; */
 }
 
 .box2 {
   /* order: 1; */
   /* flex-grow: 2; */
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
+  /* align-self: flex-start; */
 }
 
 .box3 {
   /* order: 1; */
   /* flex-grow: 1; */
-  flex-shrink: 2;
+  /* flex-shrink: 2; */
 }

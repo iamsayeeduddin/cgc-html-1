@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 150px 150px 150px;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.container div {
+  border: 2px solid black;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url("/assets/image.jpeg");
+  background-size: cover;
+}
