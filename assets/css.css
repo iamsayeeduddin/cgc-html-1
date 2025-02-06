@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+/* 
+div {
+  width: 200px;
+  height: 70px;
+  background-color: green;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: auto;
+  font-size: 24px;
+  color: wheat;
+  text-align: inherit;
+}
+ */
+
+.gradient {
+  /* width: 500px;
+  height: 900px; */
+  /* background-image: radial-gradient(circle, red, green, blue); */
+}
+
+div {
+  text-shadow: 2px 2px 5px red;
+}
+
+.shadow {
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 20px 40px skyblue;
+}
